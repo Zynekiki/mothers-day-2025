@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Just for You, Mom</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Just a Few Questions, Mom 💐</h1>
+
+    <div class="quiz" id="quiz">
+      <div class="question" data-answered="false">
+        <p>1. Would you do it all over again—being a mom?</p>
+        <button onclick="answerQuestion(this)">Yes</button>
+        <button onclick="answerQuestion(this)">No</button>
+      </div>
+      <div class="question" data-answered="false">
+        <p>2. Do you still keep any of my childhood drawings or notes?</p>
+        <button onclick="answerQuestion(this)">Yes</button>
+        <button onclick="answerQuestion(this)">No</button>
+      </div>
+      <div class="question" data-answered="false">
+        <p>3. Have you ever pretended to like a gift just to make me happy?</p>
+        <button onclick="answerQuestion(this)">Yes</button>
+        <button onclick="answerQuestion(this)">No</button>
+      </div>
+    </div>
+
+    <div class="letter" id="letter">
+      <h2>Dear Mom,</h2>
+      <p>
+        Thank you for everything you've done—for every sleepless night, every meal,
+        every hug, every moment you put me and Andi first.
+      </p>
+      <p>
+        You’ve given us more than we could ever ask for: love, strength, and the kind of care only a mother like you can give.
+      </p>
+      <p>
+        I know I don’t say it enough, but I appreciate you with all my heart.
+      </p>
+      <p>
+        Happy Mother's Day, Mom. You’re everything.
+      </p>
+      <p class="signature">Love always,  
+        <br/>Rehm 🌸
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
